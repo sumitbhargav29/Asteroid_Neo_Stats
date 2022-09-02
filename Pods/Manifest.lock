@@ -1,0 +1,44 @@
+PODS:
+  - Alamofire (5.4.1)
+  - Charts (4.0.3):
+    - Charts/Core (= 4.0.3)
+  - Charts/Core (4.0.3):
+    - SwiftAlgorithms (~> 1.0)
+  - MBProgressHUD (1.2.0)
+  - Reachability (3.2)
+  - SDWebImage (5.10.4):
+    - SDWebImage/Core (= 5.10.4)
+  - SDWebImage/Core (5.10.4)
+  - SwiftAlgorithms (1.0.0)
+  - SwiftyJSON (5.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - Charts
+  - MBProgressHUD
+  - Reachability
+  - SDWebImage
+  - SwiftyJSON
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Charts
+    - MBProgressHUD
+    - Reachability
+    - SDWebImage
+    - SwiftAlgorithms
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
+  Charts: d959d6723c8eedfdd0735dfc28cb0a71762ac4d9
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  SDWebImage: c666b97e1fa9c64b4909816a903322018f0a9c84
+  SwiftAlgorithms: 38dda4731d19027fdeee1125f973111bf3386b53
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+
+PODFILE CHECKSUM: 2d1032ff756eba6232da91f09fe768cef1981487
+
+COCOAPODS: 1.10.1

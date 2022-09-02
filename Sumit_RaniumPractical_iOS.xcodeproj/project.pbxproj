@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D43D399B5CDABC0A1A32EB2 /* Pods_Sumit_RaniumPractical_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CF7E77794742653C7EE0F12 /* Pods_Sumit_RaniumPractical_iOS.framework */; };
+		88105D7F28B6B40A00F7F6ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88105D7E28B6B40A00F7F6ED /* AppDelegate.swift */; };
+		88105D8128B6B40A00F7F6ED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88105D8028B6B40A00F7F6ED /* SceneDelegate.swift */; };
+		88105D8328B6B40A00F7F6ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88105D8228B6B40A00F7F6ED /* ViewController.swift */; };
+		88105D8628B6B40A00F7F6ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88105D8428B6B40A00F7F6ED /* Main.storyboard */; };
+		88105D8828B6B40B00F7F6ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88105D8728B6B40B00F7F6ED /* Assets.xcassets */; };
+		88105D8B28B6B40B00F7F6ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88105D8928B6B40B00F7F6ED /* LaunchScreen.storyboard */; };
+		886E320F28BD61C4002F08A8 /* CustomMarkerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 886E320D28BD61C4002F08A8 /* CustomMarkerView.xib */; };
+		886E321028BD61C4002F08A8 /* CustomMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886E320E28BD61C4002F08A8 /* CustomMarkerView.swift */; };
+		88DB24CA28C13CAE002077CB /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DB24C928C13CAE002077CB /* Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5C836707249B1FFB0B176E20 /* Pods-Sumit_RaniumPractical_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sumit_RaniumPractical_iOS.release.xcconfig"; path = "Target Support Files/Pods-Sumit_RaniumPractical_iOS/Pods-Sumit_RaniumPractical_iOS.release.xcconfig"; sourceTree = "<group>"; };
+		88105D7B28B6B40A00F7F6ED /* Sumit_RaniumPractical_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sumit_RaniumPractical_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88105D7E28B6B40A00F7F6ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		88105D8028B6B40A00F7F6ED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		88105D8228B6B40A00F7F6ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		88105D8528B6B40A00F7F6ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		88105D8728B6B40B00F7F6ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		88105D8A28B6B40B00F7F6ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		88105D8C28B6B40B00F7F6ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		886E320D28BD61C4002F08A8 /* CustomMarkerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomMarkerView.xib; sourceTree = "<group>"; };
+		886E320E28BD61C4002F08A8 /* CustomMarkerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomMarkerView.swift; sourceTree = "<group>"; };
+		8873EED928B7608D00B78A14 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88DB24C928C13CAE002077CB /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		9CF7E77794742653C7EE0F12 /* Pods_Sumit_RaniumPractical_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sumit_RaniumPractical_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF39262CCD76F86A951EC149 /* Pods-Sumit_RaniumPractical_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sumit_RaniumPractical_iOS.debug.xcconfig"; path = "Target Support Files/Pods-Sumit_RaniumPractical_iOS/Pods-Sumit_RaniumPractical_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88105D7828B6B40A00F7F6ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D43D399B5CDABC0A1A32EB2 /* Pods_Sumit_RaniumPractical_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23199337F9B8C94EE8E952F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8873EED928B7608D00B78A14 /* SwiftyJSON.framework */,
+				9CF7E77794742653C7EE0F12 /* Pods_Sumit_RaniumPractical_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3ECE6B595E57D6B9E5FA4619 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AF39262CCD76F86A951EC149 /* Pods-Sumit_RaniumPractical_iOS.debug.xcconfig */,
+				5C836707249B1FFB0B176E20 /* Pods-Sumit_RaniumPractical_iOS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		88105D7228B6B40A00F7F6ED = {
+			isa = PBXGroup;
+			children = (
+				88105D7D28B6B40A00F7F6ED /* Sumit_RaniumPractical_iOS */,
+				88105D7C28B6B40A00F7F6ED /* Products */,
+				3ECE6B595E57D6B9E5FA4619 /* Pods */,
+				23199337F9B8C94EE8E952F1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		88105D7C28B6B40A00F7F6ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88105D7B28B6B40A00F7F6ED /* Sumit_RaniumPractical_iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88105D7D28B6B40A00F7F6ED /* Sumit_RaniumPractical_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8873EECE28B75DAE00B78A14 /* AppDelegate */,
+				8873EECD28B75DAA00B78A14 /* SupportedFiles */,
+				8873EECB28B75DA100B78A14 /* ViewController */,
+				8873EECA28B75D9D00B78A14 /* Storyboard */,
+				88105D8728B6B40B00F7F6ED /* Assets.xcassets */,
+				88105D8928B6B40B00F7F6ED /* LaunchScreen.storyboard */,
+				88105D8C28B6B40B00F7F6ED /* Info.plist */,
+			);
+			path = Sumit_RaniumPractical_iOS;
+			sourceTree = "<group>";
+		};
+		8873EECA28B75D9D00B78A14 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				88105D8428B6B40A00F7F6ED /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		8873EECB28B75DA100B78A14 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				88105D8228B6B40A00F7F6ED /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		8873EECD28B75DAA00B78A14 /* SupportedFiles */ = {
+			isa = PBXGroup;
+			children = (
+				886E320E28BD61C4002F08A8 /* CustomMarkerView.swift */,
+				88DB24C928C13CAE002077CB /* Extension.swift */,
+				886E320D28BD61C4002F08A8 /* CustomMarkerView.xib */,
+			);
+			path = SupportedFiles;
+			sourceTree = "<group>";
+		};
+		8873EECE28B75DAE00B78A14 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				88105D7E28B6B40A00F7F6ED /* AppDelegate.swift */,
+				88105D8028B6B40A00F7F6ED /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88105D7A28B6B40A00F7F6ED /* Sumit_RaniumPractical_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88105D8F28B6B40B00F7F6ED /* Build configuration list for PBXNativeTarget "Sumit_RaniumPractical_iOS" */;
+			buildPhases = (
+				C736EF30D88A154FCD62CD92 /* [CP] Check Pods Manifest.lock */,
+				88105D7728B6B40A00F7F6ED /* Sources */,
+				88105D7828B6B40A00F7F6ED /* Frameworks */,
+				88105D7928B6B40A00F7F6ED /* Resources */,
+				0CC6413E06B0E9CB1EB470B0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sumit_RaniumPractical_iOS;
+			productName = Sumit_RaniumPractical_iOS;
+			productReference = 88105D7B28B6B40A00F7F6ED /* Sumit_RaniumPractical_iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88105D7328B6B40A00F7F6ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					88105D7A28B6B40A00F7F6ED = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 88105D7628B6B40A00F7F6ED /* Build configuration list for PBXProject "Sumit_RaniumPractical_iOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88105D7228B6B40A00F7F6ED;
+			productRefGroup = 88105D7C28B6B40A00F7F6ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88105D7A28B6B40A00F7F6ED /* Sumit_RaniumPractical_iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88105D7928B6B40A00F7F6ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88105D8B28B6B40B00F7F6ED /* LaunchScreen.storyboard in Resources */,
+				886E320F28BD61C4002F08A8 /* CustomMarkerView.xib in Resources */,
+				88105D8828B6B40B00F7F6ED /* Assets.xcassets in Resources */,
+				88105D8628B6B40A00F7F6ED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CC6413E06B0E9CB1EB470B0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sumit_RaniumPractical_iOS/Pods-Sumit_RaniumPractical_iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sumit_RaniumPractical_iOS/Pods-Sumit_RaniumPractical_iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sumit_RaniumPractical_iOS/Pods-Sumit_RaniumPractical_iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C736EF30D88A154FCD62CD92 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sumit_RaniumPractical_iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88105D7728B6B40A00F7F6ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88DB24CA28C13CAE002077CB /* Extension.swift in Sources */,
+				88105D8328B6B40A00F7F6ED /* ViewController.swift in Sources */,
+				886E321028BD61C4002F08A8 /* CustomMarkerView.swift in Sources */,
+				88105D7F28B6B40A00F7F6ED /* AppDelegate.swift in Sources */,
+				88105D8128B6B40A00F7F6ED /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		88105D8428B6B40A00F7F6ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88105D8528B6B40A00F7F6ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		88105D8928B6B40B00F7F6ED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88105D8A28B6B40B00F7F6ED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88105D8D28B6B40B00F7F6ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		88105D8E28B6B40B00F7F6ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88105D9028B6B40B00F7F6ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF39262CCD76F86A951EC149 /* Pods-Sumit_RaniumPractical_iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A3A5JCXCP7;
+				INFOPLIST_FILE = Sumit_RaniumPractical_iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.Sumit-RaniumPractical-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		88105D9128B6B40B00F7F6ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C836707249B1FFB0B176E20 /* Pods-Sumit_RaniumPractical_iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A3A5JCXCP7;
+				INFOPLIST_FILE = Sumit_RaniumPractical_iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.Sumit-RaniumPractical-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88105D7628B6B40A00F7F6ED /* Build configuration list for PBXProject "Sumit_RaniumPractical_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88105D8D28B6B40B00F7F6ED /* Debug */,
+				88105D8E28B6B40B00F7F6ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88105D8F28B6B40B00F7F6ED /* Build configuration list for PBXNativeTarget "Sumit_RaniumPractical_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88105D9028B6B40B00F7F6ED /* Debug */,
+				88105D9128B6B40B00F7F6ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88105D7328B6B40A00F7F6ED /* Project object */;
+}
